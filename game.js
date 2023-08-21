@@ -29,7 +29,7 @@ function nextSequence(){
     userClickedPattern = [] ;
     level++;
     $("#level-title").text("Level "+ level ) ;
-    var randomNumber = Math.round(4*Math.random()) ;
+    var randomNumber = Math.round(3.5*Math.random()) ;
     var randomChosenColour=buttonColours[randomNumber] ;
     gamePattern.push(randomChosenColour);
     
