@@ -14,16 +14,6 @@ $(document).on("keydown",function(){
     }
 });
 
-//for phone
-$(document).on("click",function(){
-    if(!gameStarted){
-        $("#level-title").text("Level "+level);
-
-        nextSequence();
-        gameStarted=true;
-    }
-});
-
 
 $(".btn").on("click",function(){
     userChosenColour = $(this).attr("id");
